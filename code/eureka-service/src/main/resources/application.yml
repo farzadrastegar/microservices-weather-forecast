@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: eureka-service
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+  server:
+    wait-time-in-ms-when-sync-empty: 0
+    eviction-interval-timer-in-ms: 1000
+
+server:
+  port: 8303
